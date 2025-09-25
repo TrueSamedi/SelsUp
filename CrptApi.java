@@ -106,7 +106,6 @@ public class CrptApi {
     }
 
     private String buildRequestBody(Document document, String signature) {
-        // Using Java 17 text blocks for better readability
         return """
             {
                 "document_format": "MANUAL",
@@ -247,4 +246,5 @@ public class CrptApi {
         String uitCode,
         String uituCode
     ) {}
+
 }
