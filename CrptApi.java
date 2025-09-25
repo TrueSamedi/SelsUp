@@ -118,7 +118,6 @@ public class CrptApi {
     }
 
     private String serializeDocument(Document document) {
-        // Simple JSON serialization without external libraries
         StringBuilder sb = new StringBuilder();
         sb.append("{");
         sb.append("\"description\":").append(serializeDescription(document.description())).append(",");
@@ -248,3 +247,4 @@ public class CrptApi {
     ) {}
 
 }
+
